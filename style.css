@@ -1,0 +1,94 @@
+/* 网页整体样式 */
+body {
+  font-family: "微软雅黑", Arial, sans-serif; /* 字体 */
+  background-color: #f5f5f5; /* 页面背景浅灰 */
+  color: #8ea8c3; /* 整体文字莫兰迪灰蓝 */
+  line-height: 1.6; /* 行高，提升可读性 */
+  margin: 0; /* 清除默认边距 */
+  padding: 0; /* 清除默认内边距 */
+}
+
+/* 头部样式 */
+.header {
+  background-color: #f0e8d8; /* 头部暖米色背景 */
+  color: #8ea8c3; /* 头部文字莫兰迪灰蓝 */
+  text-align: center; /* 文字居中 */
+  padding: 2rem; /* 内边距，避免内容贴边 */
+  margin-bottom: 2rem; /* 与主体模块拉开距离 */
+  border-radius: 0 0 12px 12px; /* 底部圆角，更精致 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* 轻微阴影，增加层次感 */
+}
+
+/* 主体内容样式 */
+.content {
+  width: 80%; /* 内容宽度，避免过宽 */
+  max-width: 1000px; /* 最大宽度限制 */
+  margin: 0 auto; /* 水平居中 */
+  padding: 0 1rem; /* 左右内边距，适配小屏幕 */
+}
+
+/* 自我介绍模块 */
+.intro {
+  background-color: white; /* 白色背景，干净清爽 */
+  padding: 2rem;
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* 轻微阴影 */
+  margin-bottom: 2rem; /* 与爱好模块拉开距离 */
+}
+
+.intro h2 {
+  color: #8ea8c3; /* 标题莫兰迪灰蓝 */
+  margin-bottom: 1rem;
+  border-left: 4px solid #8ea8c3; /* 左侧同色系边框，突出标题 */
+  padding-left: 0.8rem;
+}
+
+.intro img {
+  width: 150px; /* 照片宽度 */
+  height: 150px; /* 照片高度 */
+  border-radius: 50%; /* 圆形照片 */
+  object-fit: cover; /* 保持照片比例，避免拉伸 */
+  border: 4px solid #f0e8d8; /* 边框与头部背景色呼应 */
+  margin-bottom: 1rem;
+}
+
+/* 爱好模块样式 */
+.hobby {
+  background-color: #b8e0d2; /* 浅薄荷绿背景 */
+  padding: 2rem;
+  border-radius: 12px; /* 圆角 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); /* 轻微阴影 */
+}
+
+.hobby h2 {
+  color: #8ea8c3; /* 标题莫兰迪灰蓝，保持统一 */
+  margin-bottom: 1rem;
+  border-left: 4px solid #8ea8c3; /* 左侧同色系边框 */
+  padding-left: 0.8rem;
+}
+
+.hobby ul {
+  list-style: none; /* 清除默认列表样式 */
+  padding: 0; /* 清除默认内边距 */
+  margin: 0; /* 清除默认外边距 */
+}
+
+.hobby li {
+  color: #555; /* 列表文字稍深，提升可读性 */
+  font-size: 1.05rem; /* 字体稍大 */
+  padding: 0.5rem 0; /* 上下内边距，拉开列表项距离 */
+  padding-left: 1.5rem; /* 左侧内边距，给自定义图标留空间 */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238ea8c3'/%3E%3Ccircle cx='6' cy='6' r='4'/%3E%3C/svg%3E"); /* 自定义圆形图标（莫兰迪灰蓝） */
+  background-repeat: no-repeat; /* 不重复显示图标 */
+  background-position: left center; /* 图标位置：左侧居中 */
+}
+
+/* 底部样式 */
+.footer {
+  background-color: #f0e8d8; /* 底部背景与头部呼应 */
+  color: #8ea8c3; /* 底部文字莫兰迪灰蓝 */
+  text-align: center; /* 文字居中 */
+  padding: 1.5rem; /* 内边距 */
+  margin-top: 2rem; /* 与主体拉开距离 */
+  border-radius: 12px 12px 0 0; /* 顶部圆角 */
+}
